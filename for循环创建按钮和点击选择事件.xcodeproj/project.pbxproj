@@ -15,6 +15,8 @@
 		5ACECCAC1CA3789D00979E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACECCAA1CA3789D00979E33 /* LaunchScreen.storyboard */; };
 		5ACECCB71CA3789D00979E33 /* for_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACECCB61CA3789D00979E33 /* for_____________Tests.m */; };
 		5ACECCC21CA3789D00979E33 /* for_____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACECCC11CA3789D00979E33 /* for_____________UITests.m */; };
+		88CA416D1EEE739900FD115B /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CA416C1EEE739900FD115B /* SubViewController.m */; };
+		88CA41701EEE73AB00FD115B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CA416F1EEE73AB00FD115B /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5ACECCBD1CA3789D00979E33 /* for循环创建按钮和点击选择事件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "for循环创建按钮和点击选择事件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACECCC11CA3789D00979E33 /* for_____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "for_____________UITests.m"; sourceTree = "<group>"; };
 		5ACECCC31CA3789D00979E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CA416B1EEE739900FD115B /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		88CA416C1EEE739900FD115B /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		88CA416E1EEE73AB00FD115B /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		88CA416F1EEE73AB00FD115B /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				5ACECCA01CA3789D00979E33 /* AppDelegate.m */,
 				5ACECCA21CA3789D00979E33 /* ViewController.h */,
 				5ACECCA31CA3789D00979E33 /* ViewController.m */,
+				88CA416B1EEE739900FD115B /* SubViewController.h */,
+				88CA416C1EEE739900FD115B /* SubViewController.m */,
+				88CA416E1EEE73AB00FD115B /* AddViewController.h */,
+				88CA416F1EEE73AB00FD115B /* AddViewController.m */,
 				5ACECCA51CA3789D00979E33 /* Main.storyboard */,
 				5ACECCA81CA3789D00979E33 /* Assets.xcassets */,
 				5ACECCAA1CA3789D00979E33 /* LaunchScreen.storyboard */,
@@ -207,6 +217,7 @@
 				TargetAttributes = {
 					5ACECC981CA3789D00979E33 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WYY86V8238;
 					};
 					5ACECCB11CA3789D00979E33 = {
 						CreatedOnToolsVersion = 7.2;
@@ -270,9 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CA41701EEE73AB00FD115B /* AddViewController.m in Sources */,
 				5ACECCA41CA3789D00979E33 /* ViewController.m in Sources */,
 				5ACECCA11CA3789D00979E33 /* AppDelegate.m in Sources */,
 				5ACECC9E1CA3789D00979E33 /* main.m in Sources */,
+				88CA416D1EEE739900FD115B /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WYY86V8238;
 				INFOPLIST_FILE = "for循环创建按钮和点击选择事件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-22.for-------------";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WYY86V8238;
 				INFOPLIST_FILE = "for循环创建按钮和点击选择事件/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-22.for-------------";
+				PRODUCT_BUNDLE_IDENTIFIER = "jj.dd.gov.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +513,7 @@
 				5ACECCC81CA3789D00979E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ACECCC91CA3789D00979E33 /* Build configuration list for PBXNativeTarget "for循环创建按钮和点击选择事件Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +522,7 @@
 				5ACECCCB1CA3789D00979E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ACECCCC1CA3789D00979E33 /* Build configuration list for PBXNativeTarget "for循环创建按钮和点击选择事件UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +531,7 @@
 				5ACECCCE1CA3789D00979E33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
